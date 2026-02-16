@@ -69,6 +69,15 @@ Send brief Foundation update: tasks completed today, blockers, next steps, estim
 **Token Cost Reports:**
 After any task >$1: Include actual cost vs estimated in completion message.
 
+**GitHub Issue Sync:**
+After completing any Foundation task:
+1. Update PROJECTS.md checkbox
+2. Commit + push changes
+3. Comment on GitHub issue #1: "✅ [task] - [time] - [result]"
+4. If blocker: add comment "🚨 BLOCKER: [description]"
+
+Use: `gh issue comment 1 --body "message"` (assumes issue #1 = Foundation)
+
 ---
 
 ## External vs Internal
