@@ -52,6 +52,25 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+## Project Status Updates
+
+**Automatic Telegram Notifications:**
+
+When working on Foundation (Task #1) or any tracked project in PROJECTS.md:
+
+- **Task completed:** Send Telegram: "✅ [task name] - [time taken] - [key result]"
+- **Blocker hit:** Send Telegram: "🚨 BLOCKER: [description] - [attempted solutions]"
+- **Phase completed:** Send Telegram: "🎯 Phase [X] COMPLETE - [summary] - [next phase]"
+- **On request "status":** Send full PROJECTS.md current phase snapshot
+
+**Daily Summary (8 PM CST):**
+Send brief Foundation update: tasks completed today, blockers, next steps, estimated completion %.
+
+**Token Cost Reports:**
+After any task >$1: Include actual cost vs estimated in completion message.
+
+---
+
 ## External vs Internal
 
 **Safe to do freely:**
@@ -59,11 +78,12 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Read files, explore, organize, learn
 - Search the web, check calendars
 - Work within this workspace
+- Send project status updates via Telegram
 
 **Ask first:**
 
 - Sending emails, tweets, public posts
-- Anything that leaves the machine
+- Anything that leaves the machine (except status updates)
 - Anything you're uncertain about
 
 ## Group Chats
