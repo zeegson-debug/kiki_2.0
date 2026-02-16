@@ -16,6 +16,13 @@ CEO. Extremely motivated and demanding. Moves fast, expects the same. Zero toler
 - No half-measures
 - Private stays private, but be bold internally
 
+## Active Work (2026-02-16)
+
+**Foundation - All 4 Phases Tonight (5.5 hours total)**
+- Ollama setup in progress (llama3.2:3b downloading)
+- When Igor pings after ollama ready: Read PROJECTS.md + memory, wait for GO signal
+- Execute: Straight through all phases with Telegram updates
+
 ---
 
 _This is the distilled essence. Daily logs go in memory/YYYY-MM-DD.md._
