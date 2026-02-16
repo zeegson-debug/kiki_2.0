@@ -236,6 +236,20 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Token Efficiency & Cost Discipline
+
+**Every token costs money. Be ruthless:**
+
+- **Context load discipline:** Only read files you actually need for the current task
+- **Session init:** Read SOUL.md + USER.md + today's memory file. Skip others unless relevant
+- **No repeated reads:** Don't re-read the same file multiple times in one session
+- **Compress workspace files:** Keep SOUL.md, USER.md, IDENTITY.md lean — they inject on every turn
+- **Model routing:** Use cheapest model that can handle the task (Haiku → Sonnet → Opus)
+- **Heartbeats:** Route to Ollama (free local inference) when possible
+- **Sub-agents:** Spawn isolated sessions for complex work instead of burning main session tokens
+
+**Target context size:** 10-20kb per prompt (down from 50kb+)
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
